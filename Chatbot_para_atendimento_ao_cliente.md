@@ -60,7 +60,7 @@ A análise do protótipo inicial revelou pontos cruciais sobre a operacionaliza�
 * **Aprendizado:** Instruções de comportamento são eficazes apenas quando definem critérios objetivos de execução.
 
 ### 4.2. Atribuição de responsabilidades da arquitetura ao Prompt
-* **Problema:** O prompt original pedia para o modelo "salvar informações" ou "detectar quando a memória estava cheia". Um System Prompt isolado não controla banco de dados, limite de *tokens* ou persistência de memória.
+* **Problema:** O prompt original pedia para o modelo "salvar informações" ou "detectar quando a memória estava cheia". Um System Prompt, por si só, não implementa persistência de memória, gerenciamento de banco de dados ou controle do limite de tokens da aplicação.
 * **Refinamento:** O foco foi redirecionado para o contexto ativo da janela de conversa: *"Utilize as informações disponíveis no contexto da conversa atual..."*
 * **Aprendizado:** Deve-se distinguir claramente o que é controle comportamental do modelo do que é infraestrutura/código da aplicação.
 
