@@ -1,7 +1,7 @@
 # Estudo de Caso: Arquitetura de Prompt para Agente de Suporte Técnico (NexusAI Copilot)
 
-> **Ferramenta / Framework:** GPT-4 / Agentic Workflow Architecture  
-> **Área:** Engenharia de Agentes / Suporte Nível 3 / Governança de Ferramentas / MLOps
+> **Ferramenta / Modelo/Arquitetura:** GPT-4 / Agentic Workflow 
+> **Área:** Engenharia de Agentes / Suporte Nível 3 / Governança de Ferramentas / Confiabilidade de LLMs
 
 ---
 
